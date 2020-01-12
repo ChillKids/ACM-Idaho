@@ -1,27 +1,88 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+body {
+    background-color: black;
+}
 
+#title {
+    color: aliceblue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    height: 80vh;
+    padding-left: 2rem;
+}
+
+.middle {
+    margin-top: 2rem;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#video-container {
+    position: absolute;
+    top: -4rem;
+    left: 0px;
+    width: 100%;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#button {
+    text-align: center;
+    margin: 40px;
+    z-index: 1;
+    align-items: flex-end;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    #title {
+        margin: auto;
+    }
+    #logo {
+        width: 13rem;
+        height: 13rem;
+        margin-top: 2rem;
+    }
+    #button {
+        margin: 4rem;
+    }
+    video {
+        /* Make video to at least 100% wide and tall */
+        min-width: 50%;
+        min-height: 50%;
+        /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+        width: auto;
+        height: auto;
+        /* Center the video */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #video-container {
+        top: 13rem;
+        left: 0rem;
+    }
+}
