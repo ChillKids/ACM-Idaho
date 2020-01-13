@@ -57,7 +57,7 @@
     
     #button {
         text-align: center;
-        margin: 10rem;
+        margin: 15rem;
         z-index: 1;
         align-items: flex-end;
         opacity: 0.8;
@@ -81,6 +81,7 @@
             padding-left: 0rem;
         }
         #button {
+            padding-top: 20px;
             margin: 4rem;
         }
         video {
@@ -119,6 +120,7 @@
             padding-left: 0rem;
         }
         #button {
+            padding-top: 20px;
             margin: 6rem;
         }
         video {
