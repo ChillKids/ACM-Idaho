@@ -8,7 +8,7 @@
         font-family: 'Permanent Marker', cursive;
         font-size: 2rem;
         text-align: center;
-        height: 12rem;
+        height: 16rem;
         z-index: 1;
         padding-left: 2rem;
     }
@@ -57,7 +57,7 @@
     
     #button {
         text-align: center;
-        margin: 40px;
+        margin: 10rem;
         z-index: 1;
         align-items: flex-end;
         opacity: 0.8;
