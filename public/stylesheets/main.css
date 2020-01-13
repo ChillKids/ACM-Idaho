@@ -2,6 +2,17 @@
         background-color: black;
     }
     
+    .content {
+        margin: 3rem;
+        color: aliceblue;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2rem;
+        text-align: center;
+        height: 12rem;
+        z-index: 1;
+        padding-left: 2rem;
+    }
+    
     #title {
         color: aliceblue;
         font-family: 'Permanent Marker', cursive;
@@ -49,6 +60,7 @@
         margin: 40px;
         z-index: 1;
         align-items: flex-end;
+        opacity: 0.8;
     }
     
     .break {
@@ -88,6 +100,9 @@
             top: 13rem;
             left: 0rem;
         }
+        .content {
+            margin: 0rem;
+        }
     }
     /*Phone screen size*/
     
@@ -121,5 +136,8 @@
         #video-container {
             top: 13rem;
             left: 0rem;
+        }
+        .content {
+            margin: 0rem;
         }
     }
