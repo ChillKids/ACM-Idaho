@@ -101,7 +101,8 @@
             left: 0rem;
         }
         .content {
-            margin: 0rem;
+            margin: 0;
+            margin-top: 2rem;
         }
     }
     /*Phone screen size*/
@@ -138,6 +139,7 @@
             left: 0rem;
         }
         .content {
-            margin: 0rem;
+            margin: 0;
+            margin-top: 2rem;
         }
     }
