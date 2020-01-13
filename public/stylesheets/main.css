@@ -147,3 +147,10 @@
             margin-top: 2rem;
         }
     }
+    
+    @supports (-webkit-overflow-scrolling: touch) {
+        /* CSS specific to iOS devices */
+        #button {
+            padding-top: 100px;
+        }
+    }
