@@ -19,8 +19,10 @@
         font-size: 40px;
         font-weight: bold;
         text-align: center;
+        margin: auto;
         z-index: 1;
         height: 80vh;
+        padding-top: 10rem;
         padding-left: 2rem;
     }
     
@@ -73,6 +75,7 @@
         #title {
             margin: auto;
             margin-left: 1rem;
+            padding-top: 1rem;
         }
         #logo {
             width: 13rem;
@@ -81,7 +84,7 @@
             padding-left: 0rem;
         }
         #button {
-            padding-top: 20px;
+            padding-top: 3rem;
             margin: 4rem;
         }
         video {
@@ -112,6 +115,7 @@
         #title {
             margin: auto;
             margin-left: 1rem;
+            padding-top: 1rem;
         }
         #logo {
             width: 13rem;
@@ -120,7 +124,8 @@
             padding-left: 0rem;
         }
         #button {
-            margin: 6rem;
+            padding-top: 3rem;
+            margin: 4rem;
         }
         video {
             /* Make video to at least 100% wide and tall */
@@ -136,7 +141,7 @@
             transform: translate(-50%, -50%);
         }
         #video-container {
-            top: 14rem;
+            top: 13rem;
             left: 0rem;
         }
         .content {
