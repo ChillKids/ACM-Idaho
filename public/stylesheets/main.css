@@ -1,5 +1,6 @@
     body {
         background-color: black;
+        color: white;
     }
     
     .content {
@@ -22,7 +23,7 @@
         margin: auto;
         z-index: 1;
         height: 80vh;
-        padding-top: 10rem;
+        p adding-top: 10rem;
         padding-left: 2rem;
     }
     
